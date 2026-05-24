@@ -80,13 +80,13 @@ function Predictor() {
 
       <form onSubmit={handleSubmit} className="predictor-form">
         <label>
-          Weight in grams: 
+          Weight: 
           <input
             type="number"
             step="0.01"
             value={formData.weight}
             onChange={(e) => updateWeight(e.target.value)}
-            placeholder="52.30"
+            placeholder="Enter weight in grams"
             required
           />
         </label>
@@ -134,7 +134,7 @@ function Predictor() {
             </label>
 
             <label>
-              Sound type
+              Sound Hardness
               <select
                 value={formData.shake_reports[position.key].sound_type}
                 onChange={(e) =>
@@ -147,8 +147,6 @@ function Predictor() {
               >
                 <option value={0}>0 — soft</option>
                 <option value={1}>1 — hard</option>
-                <option value={2}>2 — clicky</option>
-                <option value={3}>3 — mixed</option>
               </select>
             </label>
           </fieldset>
