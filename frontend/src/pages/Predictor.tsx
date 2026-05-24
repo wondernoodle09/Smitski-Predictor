@@ -145,8 +145,9 @@ function Predictor() {
                   )
                 }
               >
-                <option value={0}>0 — soft</option>
-                <option value={1}>1 — hard</option>
+                <option value={0}>0 — none</option>
+                <option value={1}>1 — soft</option>
+                <option value={1}>2 — hard</option>
               </select>
             </label>
           </fieldset>
