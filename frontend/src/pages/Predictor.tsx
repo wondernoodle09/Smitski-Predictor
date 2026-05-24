@@ -75,12 +75,12 @@ function Predictor() {
 
   return (
     <section className="card">
-      <h2>Predict Your Smitski</h2>
-      <p>Enter weight and shake observations.</p>
+      <h2>Predict Your Smiski</h2>
+      <p>Enter as much information as you can to accurately predict your Smiski.</p>
 
       <form onSubmit={handleSubmit} className="predictor-form">
         <label>
-          Weight in grams
+          Weight in grams: 
           <input
             type="number"
             step="0.01"
