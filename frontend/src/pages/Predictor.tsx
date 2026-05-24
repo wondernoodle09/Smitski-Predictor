@@ -87,7 +87,6 @@ function Predictor() {
             value={formData.weight}
             onChange={(e) => updateWeight(e.target.value)}
             placeholder="Enter weight in grams"
-            required
           />
         </label>
 
